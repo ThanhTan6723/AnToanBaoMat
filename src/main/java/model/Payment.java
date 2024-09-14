@@ -5,7 +5,6 @@ public class Payment {
     private String methodName;
 
     public Payment() {
-
     }
 
     public Payment(int id, String methodName) {
