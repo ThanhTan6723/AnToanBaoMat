@@ -79,7 +79,7 @@ public class OrderControll extends HttpServlet {
             order.setAddress(address + ", " + wardName + ", " + districtName + ", " + cityName);
             order.setOrderNotes(note);
             Payment p = new Payment();
-            p.setId(3);
+            p.setId(2);
             order.setPayment(p);
             double total = 0;
             List<OrderDetail> detailList = new ArrayList<>();
